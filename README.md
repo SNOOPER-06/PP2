@@ -71,7 +71,7 @@ Try accessing the `return_value` identifier without prepending `$`.
 **What happens and why?**
 
 <details>
-    <summary>You Answer</summary>
+    <summary>Der Terminal zeigt einfach wieder return_value an und nicht den zugewiesenen Variabel, weil der Terminal return_value nicht mehr als Variabel betrachtet, sondern nur als Wort.</summary>
     ......
 </details>
 
@@ -300,7 +300,7 @@ cat ./function
 
 **What happend?**
 <details>
-    <summary>Your Explaination</summary>
+    <summary> Beide Funktionen werden gespeichert und beim aufrufen von cat ./functions angezeigt. </summary>
     .....
 
 </details>
@@ -367,7 +367,7 @@ cd /
 ```
 **Run `ls` again and insert the content here:**
 <details>
-    <summary>Your Answer</summary>
+    <summary> bin  boot  dev  etc  home  init  lib  lib64  lost+found  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var </summary>
     ....
 </details>
 
@@ -438,7 +438,7 @@ When you finished that tutorial, open a file in your home directory and manipula
 
 **How do you save a buffer to a new filename from within `vim`?**
 <details>
-    <summary>Your Answer</summary>
+    <summary>mit :w </summary>
     .....
 </details>
  

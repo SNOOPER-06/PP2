@@ -97,7 +97,7 @@ and pressing `enter`.
 
 <details>
     <summary>Calling a Function</summary>
-    Include a screenshot of your function-call!
+    ![Invoking the Plus Function](./assets/this is the plus function.png)
 </details>
 
 ### Task 4: Handling Parameters
@@ -260,7 +260,27 @@ These examples demonstrate various fundamental operations in Bash scripting, inc
 
 **Write a function, combining at least 3 different of these primitives to a function**
 <details>
-    <summary>Your Function</summary>
+    <summary>user_info() {
+    name="$1"
+    age="$2"
+
+    # String Length (Primitive 2)
+    name_length=${#name}
+    echo "Hello, $name!"
+    echo "Your name has $name_length characters."
+
+    # Numeric Comparison (Primitive 3)
+    if (( age >= 18 )); then
+        echo "You are an adult."
+    else
+        echo "You are a minor."
+    fi
+
+    # Arithmetic Operation (Primitive 1)
+    current_year=$(date +%Y)
+    birth_year=$((current_year - age))
+    echo "You were probably born in $birth_year."
+}</summary>
     
 ```bash
 your code
